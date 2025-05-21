@@ -1,0 +1,35 @@
+{
+  "Textures": {
+    "Base Color Map": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_BaseColor.Lune_Top_BaseColor",
+    "PM_Diffuse": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_BaseColor.Lune_Top_BaseColor",
+    "Lune_Top_BaseColor": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_BaseColor.Lune_Top_BaseColor",
+    "PM_Normals": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_Normal.Lune_Top_Normal",
+    "Normal Map": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_Normal.Lune_Top_Normal",
+    "PM_SpecularMasks": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_OcclusionRoughnessMetallic.Lune_Top_OcclusionRoughnessMetallic",
+    "ORM Map": "/Game/Characters/Heros/Lune/Textures_V2/Lune_Top_OcclusionRoughnessMetallic.Lune_Top_OcclusionRoughnessMetallic"
+  },
+  "Parameters": {
+    "BlendMode": 1,
+    "ShadingModel": 0,
+    "Colors": {},
+    "Scalars": {
+      "Normal/Bump Multiplier": 1.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {},
+    "Properties": {
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "BlendMode": "EBlendMode::BLEND_Masked",
+        "OpacityMaskClipValue": 0.3333
+      },
+      "bIncludedInBaseGame": true
+    },
+    "HasTopDiffuse": false,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
