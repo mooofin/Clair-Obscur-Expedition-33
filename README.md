@@ -24,12 +24,6 @@ A runtime issue has been observed, specifically a **freeze or stutter during jum
 
 ---
 
-### Action Items / Investigation Checklist
-
-* Conduct a controlled import/export cycle with sockets explicitly removed or renamed prior to `.psk` generation.
-* Evaluate the skeletal hierarchy post-import in Unreal Engine to ensure bone names and parent-child relationships are consistent.
-* Test animation sequences using a sanitized version of the skeleton containing only the primary `root` bone.
-* Analyze jump animation logic and runtime behavior for any dependency on the renamed `Root1` node.
 
 
 
