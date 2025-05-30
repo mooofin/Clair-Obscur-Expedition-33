@@ -24,7 +24,7 @@ Unreal Engine, upon encountering the name conflict during import, resolves it by
 
 A runtime issue has been observed, specifically a **freeze or stutter during jump animations**. While conclusive evidence is pending, it is hypothesized that this may be related to the presence of redundant or misnamed bones (`root`, `Root`, `Root1`). The conflict may cause anomalies in animation blueprint execution, bone-driven controllers, or physics simulations associated with the character's vertical motion states.
 
----
+
 
 
 
